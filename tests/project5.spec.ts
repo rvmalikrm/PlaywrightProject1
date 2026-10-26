@@ -1,6 +1,9 @@
 import {test, expect} from '@playwright/test';
 
-test('Complete the QA profile on the QA Automation website', async ({page}) =>
+test('Complete the QA profile on the QA Automation website', {
+    tag: ['@P1', '@smoke'],
+    annotation: { type: 'author', description: 'TTA-QA' },
+}, async ({page}) =>
 {
     await page.goto('https://app.thetestingacademy.com/playwright/tables/practice#page');
     await page.getByTestId('first-name').fill('Ravi');
