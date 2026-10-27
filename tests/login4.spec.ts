@@ -9,4 +9,3 @@ await page.getByRole('button', { name: 'Login' }).click();
 await page.waitForTimeout(1000);
 
 });
-
