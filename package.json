@@ -10,7 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "module_name": "^1.0.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.61.0",
